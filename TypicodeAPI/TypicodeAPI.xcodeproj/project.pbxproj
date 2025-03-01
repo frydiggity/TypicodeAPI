@@ -6,41 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C925CC342D736FDF0042CF38 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = C925CC332D736FDF0042CF38 /* Models */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		C9DCFA652D735C23008CDC38 /* PBXContainerItemProxy */ = {
+		C9A3BB5C2D7364A70056AC1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C9DCFA4C2D735C22008CDC38 /* Project object */;
+			containerPortal = C9A3BB432D7364A60056AC1C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9DCFA532D735C22008CDC38;
+			remoteGlobalIDString = C9A3BB4A2D7364A60056AC1C;
 			remoteInfo = TypicodeAPI;
 		};
-		C9DCFA6F2D735C23008CDC38 /* PBXContainerItemProxy */ = {
+		C9A3BB662D7364A70056AC1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C9DCFA4C2D735C22008CDC38 /* Project object */;
+			containerPortal = C9A3BB432D7364A60056AC1C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9DCFA532D735C22008CDC38;
+			remoteGlobalIDString = C9A3BB4A2D7364A60056AC1C;
 			remoteInfo = TypicodeAPI;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9DCFA542D735C22008CDC38 /* TypicodeAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypicodeAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9DCFA642D735C23008CDC38 /* TypicodeAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypicodeAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9DCFA6E2D735C23008CDC38 /* TypicodeAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypicodeAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A3BB4B2D7364A60056AC1C /* TypicodeAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypicodeAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A3BB5B2D7364A70056AC1C /* TypicodeAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypicodeAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A3BB652D7364A70056AC1C /* TypicodeAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypicodeAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C9DCFA562D735C22008CDC38 /* TypicodeAPI */ = {
+		C9A3BB4D2D7364A60056AC1C /* TypicodeAPI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TypicodeAPI;
 			sourceTree = "<group>";
 		};
-		C9DCFA672D735C23008CDC38 /* TypicodeAPITests */ = {
+		C9A3BB5E2D7364A70056AC1C /* TypicodeAPITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TypicodeAPITests;
 			sourceTree = "<group>";
 		};
-		C9DCFA712D735C23008CDC38 /* TypicodeAPIUITests */ = {
+		C9A3BB682D7364A70056AC1C /* TypicodeAPIUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TypicodeAPIUITests;
 			sourceTree = "<group>";
@@ -48,21 +52,22 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C9DCFA512D735C22008CDC38 /* Frameworks */ = {
+		C9A3BB482D7364A60056AC1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C925CC342D736FDF0042CF38 /* Models in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A3BB582D7364A70056AC1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9DCFA612D735C23008CDC38 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9DCFA6B2D735C23008CDC38 /* Frameworks */ = {
+		C9A3BB622D7364A70056AC1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +77,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9DCFA4B2D735C22008CDC38 = {
+		C925CC322D736FDF0042CF38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C9DCFA562D735C22008CDC38 /* TypicodeAPI */,
-				C9DCFA672D735C23008CDC38 /* TypicodeAPITests */,
-				C9DCFA712D735C23008CDC38 /* TypicodeAPIUITests */,
-				C9DCFA552D735C22008CDC38 /* Products */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9A3BB422D7364A60056AC1C = {
+			isa = PBXGroup;
+			children = (
+				C9A3BB4D2D7364A60056AC1C /* TypicodeAPI */,
+				C9A3BB5E2D7364A70056AC1C /* TypicodeAPITests */,
+				C9A3BB682D7364A70056AC1C /* TypicodeAPIUITests */,
+				C925CC322D736FDF0042CF38 /* Frameworks */,
+				C9A3BB4C2D7364A60056AC1C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C9DCFA552D735C22008CDC38 /* Products */ = {
+		C9A3BB4C2D7364A60056AC1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9DCFA542D735C22008CDC38 /* TypicodeAPI.app */,
-				C9DCFA642D735C23008CDC38 /* TypicodeAPITests.xctest */,
-				C9DCFA6E2D735C23008CDC38 /* TypicodeAPIUITests.xctest */,
+				C9A3BB4B2D7364A60056AC1C /* TypicodeAPI.app */,
+				C9A3BB5B2D7364A70056AC1C /* TypicodeAPITests.xctest */,
+				C9A3BB652D7364A70056AC1C /* TypicodeAPIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +108,138 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9DCFA532D735C22008CDC38 /* TypicodeAPI */ = {
+		C9A3BB4A2D7364A60056AC1C /* TypicodeAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9DCFA782D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPI" */;
+			buildConfigurationList = C9A3BB6F2D7364A70056AC1C /* Build configuration list for PBXNativeTarget "TypicodeAPI" */;
 			buildPhases = (
-				C9DCFA502D735C22008CDC38 /* Sources */,
-				C9DCFA512D735C22008CDC38 /* Frameworks */,
-				C9DCFA522D735C22008CDC38 /* Resources */,
+				C9A3BB472D7364A60056AC1C /* Sources */,
+				C9A3BB482D7364A60056AC1C /* Frameworks */,
+				C9A3BB492D7364A60056AC1C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C9DCFA562D735C22008CDC38 /* TypicodeAPI */,
+				C9A3BB4D2D7364A60056AC1C /* TypicodeAPI */,
 			);
 			name = TypicodeAPI;
 			packageProductDependencies = (
+				C925CC332D736FDF0042CF38 /* Models */,
 			);
 			productName = TypicodeAPI;
-			productReference = C9DCFA542D735C22008CDC38 /* TypicodeAPI.app */;
+			productReference = C9A3BB4B2D7364A60056AC1C /* TypicodeAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C9DCFA632D735C23008CDC38 /* TypicodeAPITests */ = {
+		C9A3BB5A2D7364A70056AC1C /* TypicodeAPITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9DCFA7B2D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPITests" */;
+			buildConfigurationList = C9A3BB722D7364A70056AC1C /* Build configuration list for PBXNativeTarget "TypicodeAPITests" */;
 			buildPhases = (
-				C9DCFA602D735C23008CDC38 /* Sources */,
-				C9DCFA612D735C23008CDC38 /* Frameworks */,
-				C9DCFA622D735C23008CDC38 /* Resources */,
+				C9A3BB572D7364A70056AC1C /* Sources */,
+				C9A3BB582D7364A70056AC1C /* Frameworks */,
+				C9A3BB592D7364A70056AC1C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9DCFA662D735C23008CDC38 /* PBXTargetDependency */,
+				C9A3BB5D2D7364A70056AC1C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C9DCFA672D735C23008CDC38 /* TypicodeAPITests */,
+				C9A3BB5E2D7364A70056AC1C /* TypicodeAPITests */,
 			);
 			name = TypicodeAPITests;
 			packageProductDependencies = (
 			);
 			productName = TypicodeAPITests;
-			productReference = C9DCFA642D735C23008CDC38 /* TypicodeAPITests.xctest */;
+			productReference = C9A3BB5B2D7364A70056AC1C /* TypicodeAPITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C9DCFA6D2D735C23008CDC38 /* TypicodeAPIUITests */ = {
+		C9A3BB642D7364A70056AC1C /* TypicodeAPIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9DCFA7E2D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPIUITests" */;
+			buildConfigurationList = C9A3BB752D7364A70056AC1C /* Build configuration list for PBXNativeTarget "TypicodeAPIUITests" */;
 			buildPhases = (
-				C9DCFA6A2D735C23008CDC38 /* Sources */,
-				C9DCFA6B2D735C23008CDC38 /* Frameworks */,
-				C9DCFA6C2D735C23008CDC38 /* Resources */,
+				C9A3BB612D7364A70056AC1C /* Sources */,
+				C9A3BB622D7364A70056AC1C /* Frameworks */,
+				C9A3BB632D7364A70056AC1C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9DCFA702D735C23008CDC38 /* PBXTargetDependency */,
+				C9A3BB672D7364A70056AC1C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C9DCFA712D735C23008CDC38 /* TypicodeAPIUITests */,
+				C9A3BB682D7364A70056AC1C /* TypicodeAPIUITests */,
 			);
 			name = TypicodeAPIUITests;
 			packageProductDependencies = (
 			);
 			productName = TypicodeAPIUITests;
-			productReference = C9DCFA6E2D735C23008CDC38 /* TypicodeAPIUITests.xctest */;
+			productReference = C9A3BB652D7364A70056AC1C /* TypicodeAPIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C9DCFA4C2D735C22008CDC38 /* Project object */ = {
+		C9A3BB432D7364A60056AC1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					C9DCFA532D735C22008CDC38 = {
+					C9A3BB4A2D7364A60056AC1C = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					C9DCFA632D735C23008CDC38 = {
+					C9A3BB5A2D7364A70056AC1C = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = C9DCFA532D735C22008CDC38;
+						TestTargetID = C9A3BB4A2D7364A60056AC1C;
 					};
-					C9DCFA6D2D735C23008CDC38 = {
+					C9A3BB642D7364A70056AC1C = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = C9DCFA532D735C22008CDC38;
+						TestTargetID = C9A3BB4A2D7364A60056AC1C;
 					};
 				};
 			};
-			buildConfigurationList = C9DCFA4F2D735C22008CDC38 /* Build configuration list for PBXProject "TypicodeAPI" */;
+			buildConfigurationList = C9A3BB462D7364A60056AC1C /* Build configuration list for PBXProject "TypicodeAPI" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C9DCFA4B2D735C22008CDC38;
+			mainGroup = C9A3BB422D7364A60056AC1C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C9A3BB782D7364BA0056AC1C /* XCLocalSwiftPackageReference "../Models" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C9DCFA552D735C22008CDC38 /* Products */;
+			productRefGroup = C9A3BB4C2D7364A60056AC1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9DCFA532D735C22008CDC38 /* TypicodeAPI */,
-				C9DCFA632D735C23008CDC38 /* TypicodeAPITests */,
-				C9DCFA6D2D735C23008CDC38 /* TypicodeAPIUITests */,
+				C9A3BB4A2D7364A60056AC1C /* TypicodeAPI */,
+				C9A3BB5A2D7364A70056AC1C /* TypicodeAPITests */,
+				C9A3BB642D7364A70056AC1C /* TypicodeAPIUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C9DCFA522D735C22008CDC38 /* Resources */ = {
+		C9A3BB492D7364A60056AC1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9DCFA622D735C23008CDC38 /* Resources */ = {
+		C9A3BB592D7364A70056AC1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9DCFA6C2D735C23008CDC38 /* Resources */ = {
+		C9A3BB632D7364A70056AC1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +249,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C9DCFA502D735C22008CDC38 /* Sources */ = {
+		C9A3BB472D7364A60056AC1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9DCFA602D735C23008CDC38 /* Sources */ = {
+		C9A3BB572D7364A70056AC1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9DCFA6A2D735C23008CDC38 /* Sources */ = {
+		C9A3BB612D7364A70056AC1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +273,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C9DCFA662D735C23008CDC38 /* PBXTargetDependency */ = {
+		C9A3BB5D2D7364A70056AC1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9DCFA532D735C22008CDC38 /* TypicodeAPI */;
-			targetProxy = C9DCFA652D735C23008CDC38 /* PBXContainerItemProxy */;
+			target = C9A3BB4A2D7364A60056AC1C /* TypicodeAPI */;
+			targetProxy = C9A3BB5C2D7364A70056AC1C /* PBXContainerItemProxy */;
 		};
-		C9DCFA702D735C23008CDC38 /* PBXTargetDependency */ = {
+		C9A3BB672D7364A70056AC1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9DCFA532D735C22008CDC38 /* TypicodeAPI */;
-			targetProxy = C9DCFA6F2D735C23008CDC38 /* PBXContainerItemProxy */;
+			target = C9A3BB4A2D7364A60056AC1C /* TypicodeAPI */;
+			targetProxy = C9A3BB662D7364A70056AC1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C9DCFA762D735C23008CDC38 /* Debug */ = {
+		C9A3BB6D2D7364A70056AC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +349,7 @@
 			};
 			name = Debug;
 		};
-		C9DCFA772D735C23008CDC38 /* Release */ = {
+		C9A3BB6E2D7364A70056AC1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +405,7 @@
 			};
 			name = Release;
 		};
-		C9DCFA792D735C23008CDC38 /* Debug */ = {
+		C9A3BB702D7364A70056AC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -417,7 +434,7 @@
 			};
 			name = Debug;
 		};
-		C9DCFA7A2D735C23008CDC38 /* Release */ = {
+		C9A3BB712D7364A70056AC1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,7 +463,7 @@
 			};
 			name = Release;
 		};
-		C9DCFA7C2D735C23008CDC38 /* Debug */ = {
+		C9A3BB732D7364A70056AC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,7 +482,7 @@
 			};
 			name = Debug;
 		};
-		C9DCFA7D2D735C23008CDC38 /* Release */ = {
+		C9A3BB742D7364A70056AC1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +501,7 @@
 			};
 			name = Release;
 		};
-		C9DCFA7F2D735C23008CDC38 /* Debug */ = {
+		C9A3BB762D7364A70056AC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -501,7 +518,7 @@
 			};
 			name = Debug;
 		};
-		C9DCFA802D735C23008CDC38 /* Release */ = {
+		C9A3BB772D7364A70056AC1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -521,43 +538,58 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9DCFA4F2D735C22008CDC38 /* Build configuration list for PBXProject "TypicodeAPI" */ = {
+		C9A3BB462D7364A60056AC1C /* Build configuration list for PBXProject "TypicodeAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9DCFA762D735C23008CDC38 /* Debug */,
-				C9DCFA772D735C23008CDC38 /* Release */,
+				C9A3BB6D2D7364A70056AC1C /* Debug */,
+				C9A3BB6E2D7364A70056AC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9DCFA782D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPI" */ = {
+		C9A3BB6F2D7364A70056AC1C /* Build configuration list for PBXNativeTarget "TypicodeAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9DCFA792D735C23008CDC38 /* Debug */,
-				C9DCFA7A2D735C23008CDC38 /* Release */,
+				C9A3BB702D7364A70056AC1C /* Debug */,
+				C9A3BB712D7364A70056AC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9DCFA7B2D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPITests" */ = {
+		C9A3BB722D7364A70056AC1C /* Build configuration list for PBXNativeTarget "TypicodeAPITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9DCFA7C2D735C23008CDC38 /* Debug */,
-				C9DCFA7D2D735C23008CDC38 /* Release */,
+				C9A3BB732D7364A70056AC1C /* Debug */,
+				C9A3BB742D7364A70056AC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9DCFA7E2D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPIUITests" */ = {
+		C9A3BB752D7364A70056AC1C /* Build configuration list for PBXNativeTarget "TypicodeAPIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9DCFA7F2D735C23008CDC38 /* Debug */,
-				C9DCFA802D735C23008CDC38 /* Release */,
+				C9A3BB762D7364A70056AC1C /* Debug */,
+				C9A3BB772D7364A70056AC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C9A3BB782D7364BA0056AC1C /* XCLocalSwiftPackageReference "../Models" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Models;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C925CC332D736FDF0042CF38 /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9A3BB782D7364BA0056AC1C /* XCLocalSwiftPackageReference "../Models" */;
+			productName = Models;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = C9DCFA4C2D735C22008CDC38 /* Project object */;
+	rootObject = C9A3BB432D7364A60056AC1C /* Project object */;
 }
