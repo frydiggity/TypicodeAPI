@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C9DCFA652D735C23008CDC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9DCFA4C2D735C22008CDC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DCFA532D735C22008CDC38;
+			remoteInfo = TypicodeAPI;
+		};
+		C9DCFA6F2D735C23008CDC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9DCFA4C2D735C22008CDC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DCFA532D735C22008CDC38;
+			remoteInfo = TypicodeAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9DCFA542D735C22008CDC38 /* TypicodeAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypicodeAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DCFA642D735C23008CDC38 /* TypicodeAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypicodeAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DCFA6E2D735C23008CDC38 /* TypicodeAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypicodeAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C9DCFA562D735C22008CDC38 /* TypicodeAPI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TypicodeAPI;
+			sourceTree = "<group>";
+		};
+		C9DCFA672D735C23008CDC38 /* TypicodeAPITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TypicodeAPITests;
+			sourceTree = "<group>";
+		};
+		C9DCFA712D735C23008CDC38 /* TypicodeAPIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TypicodeAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9DCFA512D735C22008CDC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DCFA612D735C23008CDC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DCFA6B2D735C23008CDC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9DCFA4B2D735C22008CDC38 = {
+			isa = PBXGroup;
+			children = (
+				C9DCFA562D735C22008CDC38 /* TypicodeAPI */,
+				C9DCFA672D735C23008CDC38 /* TypicodeAPITests */,
+				C9DCFA712D735C23008CDC38 /* TypicodeAPIUITests */,
+				C9DCFA552D735C22008CDC38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9DCFA552D735C22008CDC38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9DCFA542D735C22008CDC38 /* TypicodeAPI.app */,
+				C9DCFA642D735C23008CDC38 /* TypicodeAPITests.xctest */,
+				C9DCFA6E2D735C23008CDC38 /* TypicodeAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9DCFA532D735C22008CDC38 /* TypicodeAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DCFA782D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPI" */;
+			buildPhases = (
+				C9DCFA502D735C22008CDC38 /* Sources */,
+				C9DCFA512D735C22008CDC38 /* Frameworks */,
+				C9DCFA522D735C22008CDC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C9DCFA562D735C22008CDC38 /* TypicodeAPI */,
+			);
+			name = TypicodeAPI;
+			packageProductDependencies = (
+			);
+			productName = TypicodeAPI;
+			productReference = C9DCFA542D735C22008CDC38 /* TypicodeAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9DCFA632D735C23008CDC38 /* TypicodeAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DCFA7B2D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPITests" */;
+			buildPhases = (
+				C9DCFA602D735C23008CDC38 /* Sources */,
+				C9DCFA612D735C23008CDC38 /* Frameworks */,
+				C9DCFA622D735C23008CDC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DCFA662D735C23008CDC38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C9DCFA672D735C23008CDC38 /* TypicodeAPITests */,
+			);
+			name = TypicodeAPITests;
+			packageProductDependencies = (
+			);
+			productName = TypicodeAPITests;
+			productReference = C9DCFA642D735C23008CDC38 /* TypicodeAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9DCFA6D2D735C23008CDC38 /* TypicodeAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DCFA7E2D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPIUITests" */;
+			buildPhases = (
+				C9DCFA6A2D735C23008CDC38 /* Sources */,
+				C9DCFA6B2D735C23008CDC38 /* Frameworks */,
+				C9DCFA6C2D735C23008CDC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DCFA702D735C23008CDC38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C9DCFA712D735C23008CDC38 /* TypicodeAPIUITests */,
+			);
+			name = TypicodeAPIUITests;
+			packageProductDependencies = (
+			);
+			productName = TypicodeAPIUITests;
+			productReference = C9DCFA6E2D735C23008CDC38 /* TypicodeAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9DCFA4C2D735C22008CDC38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C9DCFA532D735C22008CDC38 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C9DCFA632D735C23008CDC38 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C9DCFA532D735C22008CDC38;
+					};
+					C9DCFA6D2D735C23008CDC38 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C9DCFA532D735C22008CDC38;
+					};
+				};
+			};
+			buildConfigurationList = C9DCFA4F2D735C22008CDC38 /* Build configuration list for PBXProject "TypicodeAPI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9DCFA4B2D735C22008CDC38;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C9DCFA552D735C22008CDC38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9DCFA532D735C22008CDC38 /* TypicodeAPI */,
+				C9DCFA632D735C23008CDC38 /* TypicodeAPITests */,
+				C9DCFA6D2D735C23008CDC38 /* TypicodeAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9DCFA522D735C22008CDC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DCFA622D735C23008CDC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DCFA6C2D735C23008CDC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9DCFA502D735C22008CDC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DCFA602D735C23008CDC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DCFA6A2D735C23008CDC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9DCFA662D735C23008CDC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9DCFA532D735C22008CDC38 /* TypicodeAPI */;
+			targetProxy = C9DCFA652D735C23008CDC38 /* PBXContainerItemProxy */;
+		};
+		C9DCFA702D735C23008CDC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9DCFA532D735C22008CDC38 /* TypicodeAPI */;
+			targetProxy = C9DCFA6F2D735C23008CDC38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9DCFA762D735C23008CDC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9DCFA772D735C23008CDC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9DCFA792D735C23008CDC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TypicodeAPI/Preview Content\"";
+				DEVELOPMENT_TEAM = 8C7T6972XL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefreiburgs.TypicodeAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9DCFA7A2D735C23008CDC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TypicodeAPI/Preview Content\"";
+				DEVELOPMENT_TEAM = 8C7T6972XL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefreiburgs.TypicodeAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9DCFA7C2D735C23008CDC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C7T6972XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefreiburgs.TypicodeAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypicodeAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TypicodeAPI";
+			};
+			name = Debug;
+		};
+		C9DCFA7D2D735C23008CDC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C7T6972XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefreiburgs.TypicodeAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypicodeAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TypicodeAPI";
+			};
+			name = Release;
+		};
+		C9DCFA7F2D735C23008CDC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C7T6972XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefreiburgs.TypicodeAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TypicodeAPI;
+			};
+			name = Debug;
+		};
+		C9DCFA802D735C23008CDC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C7T6972XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefreiburgs.TypicodeAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TypicodeAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9DCFA4F2D735C22008CDC38 /* Build configuration list for PBXProject "TypicodeAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DCFA762D735C23008CDC38 /* Debug */,
+				C9DCFA772D735C23008CDC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DCFA782D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DCFA792D735C23008CDC38 /* Debug */,
+				C9DCFA7A2D735C23008CDC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DCFA7B2D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DCFA7C2D735C23008CDC38 /* Debug */,
+				C9DCFA7D2D735C23008CDC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DCFA7E2D735C23008CDC38 /* Build configuration list for PBXNativeTarget "TypicodeAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DCFA7F2D735C23008CDC38 /* Debug */,
+				C9DCFA802D735C23008CDC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9DCFA4C2D735C22008CDC38 /* Project object */;
+}
