@@ -1,7 +1,7 @@
 import Foundation
 import Tagged
 
-public struct Post: Hashable, Identifiable, Sendable {
+public struct Post: Hashable, Identifiable, Sendable, Codable {
     
     // MARK: - Typealias
     

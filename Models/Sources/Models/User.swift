@@ -1,7 +1,7 @@
 import Foundation
 import Tagged
 
-public struct User: Identifiable, Hashable, Sendable, Decodable {
+public struct User: Identifiable, Hashable, Sendable, Codable {
     
     // MARK: - Typealias
     
@@ -42,7 +42,7 @@ public struct User: Identifiable, Hashable, Sendable, Decodable {
     
     // MARK: - Nested Types
     
-    public struct Address: Hashable, Sendable, Decodable {
+    public struct Address: Hashable, Sendable, Codable {
         public let street: String
         public let suite: String?
         public let city: String
@@ -63,18 +63,18 @@ public struct User: Identifiable, Hashable, Sendable, Decodable {
             self.geo = geo
         }
         
-        public struct Geo: Hashable, Sendable, Decodable {
+        public struct Geo: Hashable, Sendable, Codable {
             public let lat: String
-            public let long: String
+            public let lng: String
             
-            public init(lat: String, long: String) {
+            public init(lat: String, lng: String) {
                 self.lat = lat
-                self.long = long
+                self.lng = lng
             }
         }
     }
     
-    public struct Company: Hashable, Sendable, Decodable {
+    public struct Company: Hashable, Sendable, Codable {
         public let name: String
         public let catchPhrase: String
         public let bs: String
