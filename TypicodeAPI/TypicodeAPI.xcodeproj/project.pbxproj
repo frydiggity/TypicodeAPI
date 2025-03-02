@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C925CC342D736FDF0042CF38 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = C925CC332D736FDF0042CF38 /* Models */; };
+		C9D58C432D73A58F0044691A /* Features in Frameworks */ = {isa = PBXBuildFile; productRef = C9D58C422D73A58F0044691A /* Features */; };
+		C9D58C452D73A5950044691A /* NetworkClient in Frameworks */ = {isa = PBXBuildFile; productRef = C9D58C442D73A5950044691A /* NetworkClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +41,6 @@
 			path = TypicodeAPI;
 			sourceTree = "<group>";
 		};
-		C9A3BB5E2D7364A70056AC1C /* TypicodeAPITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TypicodeAPITests;
-			sourceTree = "<group>";
-		};
-		C9A3BB682D7364A70056AC1C /* TypicodeAPIUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TypicodeAPIUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +49,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C925CC342D736FDF0042CF38 /* Models in Frameworks */,
+				C9D58C432D73A58F0044691A /* Features in Frameworks */,
+				C9D58C452D73A5950044691A /* NetworkClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				C9A3BB4D2D7364A60056AC1C /* TypicodeAPI */,
-				C9A3BB5E2D7364A70056AC1C /* TypicodeAPITests */,
-				C9A3BB682D7364A70056AC1C /* TypicodeAPIUITests */,
 				C925CC322D736FDF0042CF38 /* Frameworks */,
 				C9A3BB4C2D7364A60056AC1C /* Products */,
 			);
@@ -126,6 +118,8 @@
 			name = TypicodeAPI;
 			packageProductDependencies = (
 				C925CC332D736FDF0042CF38 /* Models */,
+				C9D58C422D73A58F0044691A /* Features */,
+				C9D58C442D73A5950044691A /* NetworkClient */,
 			);
 			productName = TypicodeAPI;
 			productReference = C9A3BB4B2D7364A60056AC1C /* TypicodeAPI.app */;
@@ -143,9 +137,6 @@
 			);
 			dependencies = (
 				C9A3BB5D2D7364A70056AC1C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C9A3BB5E2D7364A70056AC1C /* TypicodeAPITests */,
 			);
 			name = TypicodeAPITests;
 			packageProductDependencies = (
@@ -166,9 +157,6 @@
 			);
 			dependencies = (
 				C9A3BB672D7364A70056AC1C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C9A3BB682D7364A70056AC1C /* TypicodeAPIUITests */,
 			);
 			name = TypicodeAPIUITests;
 			packageProductDependencies = (
@@ -421,6 +409,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,6 +439,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +578,14 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C9A3BB782D7364BA0056AC1C /* XCLocalSwiftPackageReference "../Models" */;
 			productName = Models;
+		};
+		C9D58C422D73A58F0044691A /* Features */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Features;
+		};
+		C9D58C442D73A5950044691A /* NetworkClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkClient;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

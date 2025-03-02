@@ -5,6 +5,9 @@
       location = "group:TypicodeAPI/TypicodeAPI.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Features">
+   </FileRef>
+   <FileRef
       location = "group:NetworkClient">
    </FileRef>
    <FileRef

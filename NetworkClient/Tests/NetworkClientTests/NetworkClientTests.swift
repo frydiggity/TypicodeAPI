@@ -13,7 +13,7 @@ extension Tag {
     @Tag static var liveNetwork: Self
 }
 
-@Suite("NetworkClient tests")
+@Suite("NetworkClient tests", .serialized)
 struct NetworkClientTests {
     
     @Suite("Fetch Users tests", .serialized)

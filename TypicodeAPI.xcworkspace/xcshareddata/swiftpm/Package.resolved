@@ -1,5 +1,5 @@
 {
-  "originHash" : "897db5dd0e11c3c3df9c582afb58975490392724764da0a12d473a86170d4fa7",
+  "originHash" : "81b1c264229669525d25f201263117c8a955514d954ba24a7da99a39bd60bf23",
   "pins" : [
     {
       "identity" : "combine-schedulers",
@@ -35,6 +35,15 @@
       "state" : {
         "revision" : "121a428c505c01c4ce02d5ada1c8fc3da93afce9",
         "version" : "1.8.0"
+      }
+    },
+    {
+      "identity" : "swift-perception",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-perception",
+      "state" : {
+        "revision" : "671fa54b279fd73933b4a8b34782ebf6c8869145",
+        "version" : "1.5.1"
       }
     },
     {
